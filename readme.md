@@ -1,6 +1,6 @@
 # LockCrypt
 
-Simple windows desktop app for encrypting and decrypting files and folders with a password.
+Simple desktop app for encrypting and decrypting files and folders with a password.
 
 ## Features
 
@@ -39,5 +39,7 @@ python lockcrypt.py --decrypt
 5. The result will be saved next to the original.
 
 ### Important
+
+Should work on Linux, Mac, or Windows.
 
 If **Securely delete originals** is enabled, the original files are deleted after processing. On SSDs, secure deletion is best-effort and cannot guarantee that the old data is unrecoverable.
